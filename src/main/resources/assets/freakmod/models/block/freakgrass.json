@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "freakmod:block/freakgrassbottom",
+    "up": "freakmod:block/freakgrasstop",
+    "north": "freakmod:block/freakgrassside",
+    "east": "freakmod:block/freakgrassside",
+    "south": "freakmod:block/freakgrassside",
+    "west": "freakmod:block/freakgrassside",
+    "particle": "freakmod:block/freakgrassbottom"
+  },
+  "render_type": "solid"
+}

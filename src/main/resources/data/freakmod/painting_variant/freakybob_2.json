@@ -1,0 +1,11 @@
+{
+  "asset_id": "freakmod:freakybob_2",
+  "height": 1,
+  "width": 1,
+  "title": {
+    "translate": "painting.freakmod.freakybob_2.title"
+  },
+  "author": {
+    "translate": "painting.freakmod.freakybob_2.author"
+  }
+}

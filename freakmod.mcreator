@@ -1,0 +1,493 @@
+{
+  "mod_elements": [
+    {
+      "name": "Freakbob",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakbob",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/items/freakbob.json",
+          "src/main/java/net/mcreator/freakmod/item/FreakbobItem.java",
+          "src/main/resources/assets/freakmod/models/item/freakbob.json"
+        ]
+      }
+    },
+    {
+      "name": "Freaktab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freaktab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Freak",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freak",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/freakmod/item/FreakItem.java",
+          "src/main/resources/assets/freakmod/models/item/freak_boots.json",
+          "src/main/resources/assets/freakmod/items/freak_leggings.json",
+          "src/main/resources/assets/freakmod/items/freak_helmet.json",
+          "src/main/resources/assets/freakmod/models/item/freak_leggings.json",
+          "src/main/resources/assets/freakmod/models/item/freak_helmet.json",
+          "src/main/resources/assets/freakmod/items/freak_boots.json",
+          "src/main/resources/assets/freakmod/equipment/freak.json",
+          "src/main/resources/assets/freakmod/items/freak_chestplate.json",
+          "src/main/resources/assets/freakmod/models/item/freak_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/models/block/freakore.json",
+          "src/main/resources/assets/freakmod/blockstates/freakore.json",
+          "src/main/java/net/mcreator/freakmod/block/FreakoreBlock.java",
+          "src/main/resources/assets/freakmod/models/item/freakore.json",
+          "src/main/resources/data/freakmod/loot_table/blocks/freakore.json",
+          "src/main/resources/assets/freakmod/items/freakore.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/items/freakingot.json",
+          "src/main/java/net/mcreator/freakmod/item/FreakingotItem.java",
+          "src/main/resources/assets/freakmod/models/item/freakingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Imspongebob",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imspongebob",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/advancement/imspongebob.json"
+        ]
+      }
+    },
+    {
+      "name": "Freaksword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freaksword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/items/freaksword.json",
+          "src/main/resources/assets/freakmod/models/item/freaksword.json",
+          "src/main/java/net/mcreator/freakmod/item/FreakswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Freakpickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/freakmod/item/FreakpickaxeItem.java",
+          "src/main/resources/assets/freakmod/models/item/freakpickaxe.json",
+          "src/main/resources/assets/freakmod/items/freakpickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/items/freakaxe.json",
+          "src/main/java/net/mcreator/freakmod/item/FreakaxeItem.java",
+          "src/main/resources/assets/freakmod/models/item/freakaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakshovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakshovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/models/item/freakshovel.json",
+          "src/main/resources/assets/freakmod/items/freakshovel.json",
+          "src/main/java/net/mcreator/freakmod/item/FreakshovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Freakhoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/items/freakhoe.json",
+          "src/main/java/net/mcreator/freakmod/item/FreakhoeItem.java",
+          "src/main/resources/assets/freakmod/models/item/freakhoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakfood",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakfood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/models/item/freakfood.json",
+          "src/main/resources/assets/freakmod/items/freakfood.json",
+          "src/main/java/net/mcreator/freakmod/item/FreakfoodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Freakcarrot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakcarrot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakcarrot.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakswordrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakpickaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakpickaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakpickaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakshovelrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakshovelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakshovelrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakhoerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakhoerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakhoerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Eatenfreakcarrot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eatenfreakcarrot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/models/item/eatenfreakcarrot.json",
+          "src/main/resources/assets/freakmod/items/eatenfreakcarrot.json",
+          "src/main/java/net/mcreator/freakmod/item/EatenfreakcarrotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Freakgrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakgrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/models/item/freakgrass.json",
+          "src/main/java/net/mcreator/freakmod/block/FreakgrassBlock.java",
+          "src/main/resources/assets/freakmod/models/block/freakgrass.json",
+          "src/main/resources/assets/freakmod/blockstates/freakgrass.json",
+          "src/main/resources/assets/freakmod/items/freakgrass.json",
+          "src/main/resources/data/freakmod/loot_table/blocks/freakgrass.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakdirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakdirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/models/block/freakdirt.json",
+          "src/main/resources/assets/freakmod/models/item/freakdirt.json",
+          "src/main/resources/data/freakmod/loot_table/blocks/freakdirt.json",
+          "src/main/resources/assets/freakmod/blockstates/freakdirt.json",
+          "src/main/resources/assets/freakmod/items/freakdirt.json",
+          "src/main/java/net/mcreator/freakmod/block/FreakdirtBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Freaky",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freaky",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/enchantment/freaky.json"
+        ]
+      }
+    },
+    {
+      "name": "FreakswordRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freaksword_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/freakmod/procedures/FreakswordRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Freakybob2",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakybob_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/painting_variant/freakybob_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakbobrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakbobrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakbobrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/items/freakblock.json",
+          "src/main/resources/assets/freakmod/models/item/freakblock.json",
+          "src/main/resources/data/freakmod/loot_table/blocks/freakblock.json",
+          "src/main/java/net/mcreator/freakmod/block/FreakblockBlock.java",
+          "src/main/resources/assets/freakmod/blockstates/freakblock.json",
+          "src/main/resources/assets/freakmod/models/block/freakblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakblockrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakblockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakblockrecipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:Freak.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:Freak.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:Freak.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:Freak.boots"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Freakore"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Freakore"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Freaksword"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Freakpickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Freakaxe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:Freakshovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Freakhoe"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:Freaky"
+    ],
+    "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:Freaky"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.freakmod.freakbob": "Freakbob",
+      "item_group.freakmod.freaktab": "Freaktab",
+      "item.freakmod.freak_chestplate": "FreakChestplate",
+      "item.freakmod.freak_leggings": "FreakLeggings",
+      "item.freakmod.freak_boots": "FreakBoots",
+      "item.freakmod.freak_helmet": "FreakHelmet",
+      "item.freakmod.freakore": "Freakore",
+      "item.freakmod.freakingot": "Freakingot",
+      "advancements.imspongebob.descr": "You got spongebob",
+      "advancements.imspongebob.title": "Imspongebob",
+      "item.freakmod.freaksword": "Freaksword",
+      "item.freakmod.freakpickaxe": "Freakpickaxe",
+      "item.freakmod.freakaxe": "Freakaxe",
+      "item.freakmod.freakshovel": "Freakshovel",
+      "item.freakmod.freakhoe": "Freakhoe",
+      "item.freakmod.freakfood": "Freakcarrot",
+      "item.freakmod.eatenfreakcarrot": "Eatenfreakcarrot",
+      "item.freakmod.freakgrass": "Freakgrass",
+      "item.freakmod.freakdirt": "Freakdirt",
+      "enchantment.freakmod.freaky": "Freaky",
+      "painting.freakmod.freakybob_2.title": "Freakybob",
+      "painting.freakmod.freakybob_2.author": "Himself",
+      "item.freakmod.freakblock": "Freakblock"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/freakmod/FreakmodMod.java",
+      "src/main/java/net/mcreator/freakmod/init/FreakmodModTabs.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/freakmod/init/FreakmodModBlocks.java",
+      "src/main/java/net/mcreator/freakmod/init/FreakmodModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "freakmod",
+    "modName": "Freakmod",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "modElementsPackage": "net.mcreator.freakmod"
+  },
+  "mcreatorVersion": 202500228610
+}

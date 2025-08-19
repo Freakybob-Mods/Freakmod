@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/black_concrete",
+    "up": "freakmod:block/freakblock",
+    "north": "freakmod:block/gold_block",
+    "east": "freakmod:block/gold_block",
+    "south": "freakmod:block/gold_block",
+    "west": "freakmod:block/gold_block",
+    "particle": "minecraft:block/black_concrete"
+  },
+  "render_type": "cutout_mipped"
+}

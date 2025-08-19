@@ -1,0 +1,45 @@
+{
+  "description": {
+    "translate": "enchantment.freakmod.freaky"
+  },
+  "supported_items": [
+    "freakmod:freak_helmet",
+    "freakmod:freak_chestplate",
+    "freakmod:freak_leggings",
+    "freakmod:freak_boots",
+    "freakmod:freaksword",
+    "freakmod:freakpickaxe",
+    "freakmod:freakaxe",
+    "freakmod:freakshovel",
+    "freakmod:freakhoe"
+  ],
+  "weight": 2,
+  "max_level": 4,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": [],
+  "effects": {
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1,
+            "per_level_above_first": 1
+          }
+        }
+      }
+    ]
+  }
+}

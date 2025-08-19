@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "freakmod:freakingot",
+    "b": "minecraft:sponge"
+  },
+  "result": {
+    "id": "freakmod:freakbob",
+    "count": 1
+  }
+}

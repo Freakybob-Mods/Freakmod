@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    " b",
+    " b"
+  ],
+  "key": {
+    "a": "freakmod:freakingot",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "freakmod:freakhoe",
+    "count": 1
+  }
+}

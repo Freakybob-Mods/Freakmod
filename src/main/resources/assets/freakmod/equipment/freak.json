@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "freakmod:freak"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "freakmod:freak"
+      }
+    ]
+  }
+}

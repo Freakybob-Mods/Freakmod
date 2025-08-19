@@ -1,0 +1,46 @@
+{
+  "_fv": 79,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Freaky",
+    "supportedSlots": "any",
+    "weight": 2,
+    "anvilCost": 2,
+    "maxLevel": 4,
+    "damageModifier": 1,
+    "incompatibleEnchantments": [],
+    "supportedItems": [
+      {
+        "value": "CUSTOM:Freak.helmet"
+      },
+      {
+        "value": "CUSTOM:Freak.body"
+      },
+      {
+        "value": "CUSTOM:Freak.legs"
+      },
+      {
+        "value": "CUSTOM:Freak.boots"
+      },
+      {
+        "value": "CUSTOM:Freaksword"
+      },
+      {
+        "value": "CUSTOM:Freakpickaxe"
+      },
+      {
+        "value": "CUSTOM:Freakaxe"
+      },
+      {
+        "value": "CUSTOM:Freakshovel"
+      },
+      {
+        "value": "CUSTOM:Freakhoe"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": false
+  }
+}
