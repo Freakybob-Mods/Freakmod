@@ -19,6 +19,7 @@ import net.mcreator.freakmod.item.FreakhoeItem;
 import net.mcreator.freakmod.item.FreakfoodItem;
 import net.mcreator.freakmod.item.FreakbobItem;
 import net.mcreator.freakmod.item.FreakaxeItem;
+import net.mcreator.freakmod.item.FreakarrowItem;
 import net.mcreator.freakmod.item.FreakItem;
 import net.mcreator.freakmod.item.EatenfreakcarrotItem;
 import net.mcreator.freakmod.FreakmodMod;
@@ -32,7 +33,6 @@ public class FreakmodModItems {
 	public static final DeferredItem<Item> FREAK_CHESTPLATE = register("freak_chestplate", FreakItem.Chestplate::new);
 	public static final DeferredItem<Item> FREAK_LEGGINGS = register("freak_leggings", FreakItem.Leggings::new);
 	public static final DeferredItem<Item> FREAK_BOOTS = register("freak_boots", FreakItem.Boots::new);
-	public static final DeferredItem<Item> FREAKORE = block(FreakmodModBlocks.FREAKORE);
 	public static final DeferredItem<Item> FREAKINGOT = register("freakingot", FreakingotItem::new);
 	public static final DeferredItem<Item> FREAKSWORD = register("freaksword", FreakswordItem::new);
 	public static final DeferredItem<Item> FREAKPICKAXE = register("freakpickaxe", FreakpickaxeItem::new);
@@ -44,6 +44,9 @@ public class FreakmodModItems {
 	public static final DeferredItem<Item> FREAKGRASS = block(FreakmodModBlocks.FREAKGRASS);
 	public static final DeferredItem<Item> FREAKDIRT = block(FreakmodModBlocks.FREAKDIRT);
 	public static final DeferredItem<Item> FREAKBLOCK = block(FreakmodModBlocks.FREAKBLOCK);
+	public static final DeferredItem<Item> FREAKORE = block(FreakmodModBlocks.FREAKORE);
+	public static final DeferredItem<Item> DEEPSLATEFREAKORE = block(FreakmodModBlocks.DEEPSLATEFREAKORE);
+	public static final DeferredItem<Item> FREAKARROW = register("freakarrow", FreakarrowItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

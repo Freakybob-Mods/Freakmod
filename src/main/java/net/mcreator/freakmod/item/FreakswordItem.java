@@ -15,10 +15,10 @@ import net.minecraft.core.registries.Registries;
 import net.mcreator.freakmod.procedures.FreakswordRightclickedProcedure;
 
 public class FreakswordItem extends SwordItem {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL, 123, 5f, 0, 23, TagKey.create(Registries.ITEM, ResourceLocation.parse("freakmod:freaksword_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL, 250, 4.5f, 0, 13, TagKey.create(Registries.ITEM, ResourceLocation.parse("freakmod:freaksword_repair_items")));
 
 	public FreakswordItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 3f, -3f, properties);
+		super(TOOL_MATERIAL, 4.5f, -2.5f, properties);
 	}
 
 	@Override

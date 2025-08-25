@@ -2,7 +2,6 @@ package net.mcreator.freakmod.item;
 
 import net.minecraft.world.item.ToolMaterial;
 import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.tags.TagKey;
 import net.minecraft.tags.BlockTags;
@@ -10,14 +9,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.registries.Registries;
 
 public class FreakpickaxeItem extends PickaxeItem {
-	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL, 223, 5f, 0, 23, TagKey.create(Registries.ITEM, ResourceLocation.parse("freakmod:freakpickaxe_repair_items")));
+	private static final ToolMaterial TOOL_MATERIAL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL, 250, 4.5f, 0, 13, TagKey.create(Registries.ITEM, ResourceLocation.parse("freakmod:freakpickaxe_repair_items")));
 
 	public FreakpickaxeItem(Item.Properties properties) {
-		super(TOOL_MATERIAL, 2.5f, -3f, properties.setNoCombineRepair());
-	}
-
-	@Override
-	public ItemStack getCraftingRemainder(ItemStack itemstack) {
-		return new ItemStack(this);
+		super(TOOL_MATERIAL, 2.5f, -2.8f, properties);
 	}
 }

@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "freakmod:deepslatefreakore",
+  "step": "underground_ores"
+}

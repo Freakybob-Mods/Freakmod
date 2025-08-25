@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "freakmod:freakingot"
+  },
+  "result": {
+    "id": "freakmod:freak_boots",
+    "count": 1
+  }
+}

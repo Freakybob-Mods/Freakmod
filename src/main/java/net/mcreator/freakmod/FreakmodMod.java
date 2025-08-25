@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.freakmod.init.FreakmodModTabs;
 import net.mcreator.freakmod.init.FreakmodModItems;
+import net.mcreator.freakmod.init.FreakmodModEntities;
 import net.mcreator.freakmod.init.FreakmodModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -43,7 +44,7 @@ public class FreakmodMod {
 		FreakmodModBlocks.REGISTRY.register(modEventBus);
 
 		FreakmodModItems.REGISTRY.register(modEventBus);
-
+		FreakmodModEntities.REGISTRY.register(modEventBus);
 		FreakmodModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init

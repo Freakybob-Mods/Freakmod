@@ -46,23 +46,6 @@
       }
     },
     {
-      "name": "Freakore",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "freakore",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/freakmod/models/block/freakore.json",
-          "src/main/resources/assets/freakmod/blockstates/freakore.json",
-          "src/main/java/net/mcreator/freakmod/block/FreakoreBlock.java",
-          "src/main/resources/assets/freakmod/models/item/freakore.json",
-          "src/main/resources/data/freakmod/loot_table/blocks/freakore.json",
-          "src/main/resources/assets/freakmod/items/freakore.json"
-        ]
-      }
-    },
-    {
       "name": "Freakingot",
       "type": "item",
       "compiles": true,
@@ -386,6 +369,168 @@
           "src/main/resources/data/freakmod/recipe/freakblockrecipe.json"
         ]
       }
+    },
+    {
+      "name": "Freakhelmetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakhelmetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakhelmetrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakchestplatrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakchestplatrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakchestplatrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakpantalonsrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakpantalonsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakpantalonsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakboots.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/models/block/freakore.json",
+          "src/main/resources/assets/freakmod/blockstates/freakore.json",
+          "src/main/java/net/mcreator/freakmod/block/FreakoreBlock.java",
+          "src/main/resources/assets/freakmod/models/item/freakore.json",
+          "src/main/resources/data/freakmod/loot_table/blocks/freakore.json",
+          "src/main/resources/data/freakmod/worldgen/configured_feature/freakore.json",
+          "src/main/resources/data/freakmod/worldgen/placed_feature/freakore.json",
+          "src/main/resources/data/freakmod/neoforge/biome_modifier/freakore_biome_modifier.json",
+          "src/main/resources/assets/freakmod/items/freakore.json"
+        ]
+      }
+    },
+    {
+      "name": "Deepslatefreakore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslatefreakore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/freakmod/block/DeepslatefreakoreBlock.java",
+          "src/main/resources/assets/freakmod/models/block/deepslatefreakore.json",
+          "src/main/resources/data/freakmod/worldgen/placed_feature/deepslatefreakore.json",
+          "src/main/resources/assets/freakmod/items/deepslatefreakore.json",
+          "src/main/resources/data/freakmod/neoforge/biome_modifier/deepslatefreakore_biome_modifier.json",
+          "src/main/resources/data/freakmod/loot_table/blocks/deepslatefreakore.json",
+          "src/main/resources/data/freakmod/worldgen/configured_feature/deepslatefreakore.json",
+          "src/main/resources/assets/freakmod/blockstates/deepslatefreakore.json",
+          "src/main/resources/assets/freakmod/models/item/deepslatefreakore.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakarrow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakarrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/items/freakarrow.json",
+          "src/main/resources/assets/freakmod/models/item/freakarrow.json",
+          "src/main/java/net/mcreator/freakmod/item/FreakarrowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Freakarrowrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakarrowrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakarrowrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Freakprojectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakprojectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/freakmod/entity/FreakprojectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Freakarmoradvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakarmoradvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/advancement/freakarmoradvancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Thatssofreaky",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thatssofreaky",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/advancement/thatssofreaky.json"
+        ]
+      }
+    },
+    {
+      "name": "Freaktools",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freaktools",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/advancement/freaktools.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -402,12 +547,6 @@
     ],
     "ITEMS:minecraft:foot_armor": [
       "~CUSTOM:Freak.boots"
-    ],
-    "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:Freakore"
-    ],
-    "BLOCKS:minecraft:needs_stone_tool": [
-      "~CUSTOM:Freakore"
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:Freaksword"
@@ -429,6 +568,14 @@
     ],
     "ENCHANTMENTS:minecraft:non_treasure": [
       "~CUSTOM:Freaky"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Deepslatefreakore",
+      "~CUSTOM:Freakore"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Deepslatefreakore",
+      "~CUSTOM:Freakore"
     ]
   },
   "tab_element_order": {},
@@ -440,9 +587,8 @@
       "item.freakmod.freak_leggings": "FreakLeggings",
       "item.freakmod.freak_boots": "FreakBoots",
       "item.freakmod.freak_helmet": "FreakHelmet",
-      "item.freakmod.freakore": "Freakore",
       "item.freakmod.freakingot": "Freakingot",
-      "advancements.imspongebob.descr": "You got spongebob",
+      "advancements.imspongebob.descr": "He\u0027s spongebob",
       "advancements.imspongebob.title": "Imspongebob",
       "item.freakmod.freaksword": "Freaksword",
       "item.freakmod.freakpickaxe": "Freakpickaxe",
@@ -456,7 +602,16 @@
       "enchantment.freakmod.freaky": "Freaky",
       "painting.freakmod.freakybob_2.title": "Freakybob",
       "painting.freakmod.freakybob_2.author": "Himself",
-      "item.freakmod.freakblock": "Freakblock"
+      "item.freakmod.freakblock": "Freakblock",
+      "item.freakmod.freakore": "Freakore",
+      "item.freakmod.deepslatefreakore": "Deepslatefreakore",
+      "item.freakmod.freakarrow": "Freakarrow",
+      "advancements.freakarmoradvancement.title": "Fullly freaked out!",
+      "advancements.freakarmoradvancement.descr": "Get the full freakybob armor set",
+      "advancements.thatssofreaky.descr": "Get the freakingot!",
+      "advancements.thatssofreaky.title": "Thats so freaky",
+      "advancements.freaktools.descr": "Get the full freakbob tool set!",
+      "advancements.freaktools.title": "Freaktools"
     }
   },
   "metadata": {
@@ -467,7 +622,9 @@
       "src/main/java/net/mcreator/freakmod/init/FreakmodModTabs.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/freakmod/init/FreakmodModBlocks.java",
-      "src/main/java/net/mcreator/freakmod/init/FreakmodModItems.java"
+      "src/main/java/net/mcreator/freakmod/init/FreakmodModItems.java",
+      "src/main/java/net/mcreator/freakmod/init/FreakmodModEntities.java",
+      "src/main/java/net/mcreator/freakmod/init/FreakmodModEntityRenderers.java"
     ]
   },
   "foldersRoot": {

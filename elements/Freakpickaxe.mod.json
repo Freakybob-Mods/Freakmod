@@ -21,11 +21,11 @@
         "value": "CUSTOM:Freaktab"
       }
     ],
-    "efficiency": 5.0,
-    "attackSpeed": 1.0,
-    "enchantability": 23,
+    "efficiency": 4.5,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 13,
     "damageVsEntity": 3.5,
-    "usageCount": 223,
+    "usageCount": 250,
     "glowCondition": {
       "fixedValue": false
     },
@@ -33,7 +33,7 @@
     "immuneToFire": false,
     "blockDropsTier": "IRON",
     "blocksAffected": [],
-    "stayInGridWhenCrafting": true,
+    "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }
 }

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "freakmod:freakbob"
+    },
+    "title": {
+      "translate": "advancements.thatssofreaky.title"
+    },
+    "description": {
+      "translate": "advancements.thatssofreaky.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thatssofreaky_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "freakmod:freakingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "freakmod:imspongebob"
+}

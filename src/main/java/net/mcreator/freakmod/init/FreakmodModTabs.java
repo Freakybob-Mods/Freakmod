@@ -27,7 +27,6 @@ public class FreakmodModTabs {
 				tabData.accept(FreakmodModItems.FREAK_CHESTPLATE.get());
 				tabData.accept(FreakmodModItems.FREAK_LEGGINGS.get());
 				tabData.accept(FreakmodModItems.FREAK_BOOTS.get());
-				tabData.accept(FreakmodModBlocks.FREAKORE.get().asItem());
 				tabData.accept(FreakmodModItems.FREAKINGOT.get());
 				tabData.accept(FreakmodModItems.FREAKSWORD.get());
 				tabData.accept(FreakmodModItems.FREAKPICKAXE.get());
@@ -39,6 +38,8 @@ public class FreakmodModTabs {
 				tabData.accept(FreakmodModBlocks.FREAKGRASS.get().asItem());
 				tabData.accept(FreakmodModBlocks.FREAKDIRT.get().asItem());
 				tabData.accept(FreakmodModBlocks.FREAKBLOCK.get().asItem());
+				tabData.accept(FreakmodModBlocks.FREAKORE.get().asItem());
+				tabData.accept(FreakmodModItems.FREAKARROW.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -48,8 +49,8 @@ public class FreakmodModTabs {
 			tabData.accept(FreakmodModItems.FREAK_CHESTPLATE.get());
 			tabData.accept(FreakmodModItems.FREAK_LEGGINGS.get());
 			tabData.accept(FreakmodModItems.FREAK_BOOTS.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(FreakmodModItems.FREAKSWORD.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(FreakmodModItems.FREAKPICKAXE.get());
 			tabData.accept(FreakmodModItems.FREAKAXE.get());
 			tabData.accept(FreakmodModItems.FREAKSHOVEL.get());

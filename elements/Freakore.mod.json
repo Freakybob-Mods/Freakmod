@@ -4,7 +4,7 @@
   "definition": {
     "texture": "freakore",
     "textureTop": "",
-    "textureLeft": "freakore",
+    "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
@@ -16,7 +16,7 @@
     "displayFluidOverlay": false,
     "animations": [],
     "itemTexture": "",
-    "particleTexture": "freakore",
+    "particleTexture": "",
     "blockSetType": "OAK",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -40,7 +40,7 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.2,
+    "hardness": 3.25,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -57,7 +57,7 @@
     "customDrop": {
       "value": "CUSTOM:Freakingot"
     },
-    "dropAmount": 2,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
@@ -71,17 +71,13 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "YELLOW",
+    "colorOnMap": "DEFAULT",
     "noteBlockInstrument": "snare",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "beaconColorModifier": {
-      "value": -205,
-      "falpha": 0.0
-    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -93,7 +89,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SPONGE"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -135,17 +131,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
+    "generateFeature": true,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE#0"
+        "value": "Blocks.STONE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 9,
+    "frequencyPerChunks": 4,
     "frequencyOnChunk": 6,
-    "minGenerateHeight": 16,
-    "maxGenerateHeight": 232
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": 320
   }
 }

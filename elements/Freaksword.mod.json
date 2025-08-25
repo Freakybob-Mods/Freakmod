@@ -15,17 +15,17 @@
     },
     "creativeTabs": [
       {
-        "value": "TOOLS"
+        "value": "CUSTOM:Freaktab"
       },
       {
-        "value": "CUSTOM:Freaktab"
+        "value": "COMBAT"
       }
     ],
-    "efficiency": 5.0,
-    "attackSpeed": 1.0,
-    "enchantability": 23,
-    "damageVsEntity": 4.0,
-    "usageCount": 123,
+    "efficiency": 4.5,
+    "attackSpeed": 1.5,
+    "enchantability": 13,
+    "damageVsEntity": 5.5,
+    "usageCount": 250,
     "glowCondition": {
       "fixedValue": false
     },
