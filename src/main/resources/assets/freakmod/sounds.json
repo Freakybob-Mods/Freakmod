@@ -1,0 +1,11 @@
+{
+  "disc": {
+    "subtitle": "subtitles.disc",
+    "sounds": [
+      {
+        "name": "freakmod:vert_pick-up-the-phone-baby-freakbob_1_1",
+        "stream": false
+      }
+    ]
+  }
+}

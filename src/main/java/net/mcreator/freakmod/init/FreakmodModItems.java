@@ -11,12 +11,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.freakmod.item.MultifreakItem;
 import net.mcreator.freakmod.item.FreakswordItem;
 import net.mcreator.freakmod.item.FreakshovelItem;
 import net.mcreator.freakmod.item.FreakpickaxeItem;
 import net.mcreator.freakmod.item.FreakingotItem;
 import net.mcreator.freakmod.item.FreakhoeItem;
 import net.mcreator.freakmod.item.FreakfoodItem;
+import net.mcreator.freakmod.item.FreakdiscItem;
 import net.mcreator.freakmod.item.FreakbobItem;
 import net.mcreator.freakmod.item.FreakaxeItem;
 import net.mcreator.freakmod.item.FreakarrowItem;
@@ -47,6 +49,8 @@ public class FreakmodModItems {
 	public static final DeferredItem<Item> FREAKORE = block(FreakmodModBlocks.FREAKORE);
 	public static final DeferredItem<Item> DEEPSLATEFREAKORE = block(FreakmodModBlocks.DEEPSLATEFREAKORE);
 	public static final DeferredItem<Item> FREAKARROW = register("freakarrow", FreakarrowItem::new);
+	public static final DeferredItem<Item> FREAKDISC = register("freakdisc", FreakdiscItem::new);
+	public static final DeferredItem<Item> MULTIFREAK = register("multifreak", MultifreakItem::new);
 
 	// Start of user code block custom items
 	// End of user code block custom items

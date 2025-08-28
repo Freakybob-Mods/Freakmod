@@ -29,5 +29,10 @@
   "advancements.thatssofreaky.descr": "Get the freakingot!",
   "advancements.thatssofreaky.title": "Thats so freaky",
   "advancements.freaktools.descr": "Get the full freakbob tool set!",
-  "advancements.freaktools.title": "Freaktools"
+  "advancements.freaktools.title": "Freaktools",
+  "item.freakmod.freakdisc.desc": "Freaky",
+  "item.freakmod.freakdisc": "Freakdisc",
+  "subtitles.disc": "Freaky",
+  "item.freakmod.multifreak": "Multifreak",
+  "gui.freakmod.freakui.label_live_freakybob_reaction": "Live freakybob reaction"
 }

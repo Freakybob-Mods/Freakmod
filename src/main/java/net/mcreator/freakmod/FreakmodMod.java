@@ -19,6 +19,8 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.freakmod.init.FreakmodModTabs;
+import net.mcreator.freakmod.init.FreakmodModSounds;
+import net.mcreator.freakmod.init.FreakmodModMenus;
 import net.mcreator.freakmod.init.FreakmodModItems;
 import net.mcreator.freakmod.init.FreakmodModEntities;
 import net.mcreator.freakmod.init.FreakmodModBlocks;
@@ -40,12 +42,14 @@ public class FreakmodMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
-
+		FreakmodModSounds.REGISTRY.register(modEventBus);
 		FreakmodModBlocks.REGISTRY.register(modEventBus);
 
 		FreakmodModItems.REGISTRY.register(modEventBus);
 		FreakmodModEntities.REGISTRY.register(modEventBus);
 		FreakmodModTabs.REGISTRY.register(modEventBus);
+
+		FreakmodModMenus.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

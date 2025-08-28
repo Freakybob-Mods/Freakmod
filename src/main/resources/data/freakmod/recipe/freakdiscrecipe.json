@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "freak",
+  "category": "misc",
+  "ingredients": [
+    "freakmod:freakbob",
+    "minecraft:note_block"
+  ],
+  "result": {
+    "id": "freakmod:freakdisc",
+    "count": 1
+  }
+}

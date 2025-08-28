@@ -4,8 +4,18 @@
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 4,
-    "group": "",
-    "unlockingItems": [],
+    "group": "freak",
+    "unlockingItems": [
+      {
+        "value": "Items.BOW"
+      },
+      {
+        "value": "Items.ARROW"
+      },
+      {
+        "value": "CUSTOM:Freakingot"
+      }
+    ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,

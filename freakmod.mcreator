@@ -12,7 +12,8 @@
           "src/main/java/net/mcreator/freakmod/item/FreakbobItem.java",
           "src/main/resources/assets/freakmod/models/item/freakbob.json"
         ]
-      }
+      },
+      "path": "~/other"
     },
     {
       "name": "Freaktab",
@@ -22,7 +23,8 @@
       "registry_name": "freaktab",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/other"
     },
     {
       "name": "Freak",
@@ -43,7 +45,8 @@
           "src/main/resources/assets/freakmod/items/freak_chestplate.json",
           "src/main/resources/assets/freakmod/models/item/freak_chestplate.json"
         ]
-      }
+      },
+      "path": "~/other"
     },
     {
       "name": "Freakingot",
@@ -57,7 +60,8 @@
           "src/main/java/net/mcreator/freakmod/item/FreakingotItem.java",
           "src/main/resources/assets/freakmod/models/item/freakingot.json"
         ]
-      }
+      },
+      "path": "~/items"
     },
     {
       "name": "Imspongebob",
@@ -69,7 +73,8 @@
         "files": [
           "src/main/resources/data/freakmod/advancement/imspongebob.json"
         ]
-      }
+      },
+      "path": "~/achivements"
     },
     {
       "name": "Freaksword",
@@ -83,7 +88,8 @@
           "src/main/resources/assets/freakmod/models/item/freaksword.json",
           "src/main/java/net/mcreator/freakmod/item/FreakswordItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "Freakpickaxe",
@@ -97,7 +103,8 @@
           "src/main/resources/assets/freakmod/models/item/freakpickaxe.json",
           "src/main/resources/assets/freakmod/items/freakpickaxe.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "Freakaxe",
@@ -111,7 +118,8 @@
           "src/main/java/net/mcreator/freakmod/item/FreakaxeItem.java",
           "src/main/resources/assets/freakmod/models/item/freakaxe.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "Freakshovel",
@@ -125,7 +133,8 @@
           "src/main/resources/assets/freakmod/items/freakshovel.json",
           "src/main/java/net/mcreator/freakmod/item/FreakshovelItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "Freakhoe",
@@ -139,7 +148,8 @@
           "src/main/java/net/mcreator/freakmod/item/FreakhoeItem.java",
           "src/main/resources/assets/freakmod/models/item/freakhoe.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "Freakfood",
@@ -153,7 +163,8 @@
           "src/main/resources/assets/freakmod/items/freakfood.json",
           "src/main/java/net/mcreator/freakmod/item/FreakfoodItem.java"
         ]
-      }
+      },
+      "path": "~/items"
     },
     {
       "name": "Freakcarrot",
@@ -163,9 +174,11 @@
       "registry_name": "freakcarrot",
       "metadata": {
         "files": [
-          "src/main/resources/data/freakmod/recipe/freakcarrot.json"
+          "src/main/resources/data/freakmod/recipe/freakcarrot.json",
+          "src/main/resources/data/freakmod/advancement/recipes/freakcarrot.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakswordrecipe",
@@ -175,9 +188,11 @@
       "registry_name": "freakswordrecipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/freakmod/recipe/freakswordrecipe.json"
+          "src/main/resources/data/freakmod/recipe/freakswordrecipe.json",
+          "src/main/resources/data/freakmod/advancement/recipes/freakswordrecipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakpickaxerecipe",
@@ -187,9 +202,11 @@
       "registry_name": "freakpickaxerecipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/freakmod/recipe/freakpickaxerecipe.json"
+          "src/main/resources/data/freakmod/recipe/freakpickaxerecipe.json",
+          "src/main/resources/data/freakmod/advancement/recipes/freakpickaxerecipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakaxerecipe",
@@ -199,9 +216,11 @@
       "registry_name": "freakaxerecipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/freakmod/recipe/freakaxerecipe.json"
+          "src/main/resources/data/freakmod/recipe/freakaxerecipe.json",
+          "src/main/resources/data/freakmod/advancement/recipes/freakaxerecipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakshovelrecipe",
@@ -211,9 +230,11 @@
       "registry_name": "freakshovelrecipe",
       "metadata": {
         "files": [
+          "src/main/resources/data/freakmod/advancement/recipes/freakshovelrecipe.json",
           "src/main/resources/data/freakmod/recipe/freakshovelrecipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakhoerecipe",
@@ -223,9 +244,11 @@
       "registry_name": "freakhoerecipe",
       "metadata": {
         "files": [
+          "src/main/resources/data/freakmod/advancement/recipes/freakhoerecipe.json",
           "src/main/resources/data/freakmod/recipe/freakhoerecipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Eatenfreakcarrot",
@@ -239,7 +262,8 @@
           "src/main/resources/assets/freakmod/items/eatenfreakcarrot.json",
           "src/main/java/net/mcreator/freakmod/item/EatenfreakcarrotItem.java"
         ]
-      }
+      },
+      "path": "~/items"
     },
     {
       "name": "Freakgrass",
@@ -256,7 +280,8 @@
           "src/main/resources/assets/freakmod/items/freakgrass.json",
           "src/main/resources/data/freakmod/loot_table/blocks/freakgrass.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Freakdirt",
@@ -273,7 +298,8 @@
           "src/main/resources/assets/freakmod/items/freakdirt.json",
           "src/main/java/net/mcreator/freakmod/block/FreakdirtBlock.java"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Freaky",
@@ -285,7 +311,8 @@
         "files": [
           "src/main/resources/data/freakmod/enchantment/freaky.json"
         ]
-      }
+      },
+      "path": "~/other"
     },
     {
       "name": "FreakswordRightclicked",
@@ -315,7 +342,8 @@
         "files": [
           "src/main/java/net/mcreator/freakmod/procedures/FreakswordRightclickedProcedure.java"
         ]
-      }
+      },
+      "path": "~/other"
     },
     {
       "name": "Freakybob2",
@@ -327,7 +355,8 @@
         "files": [
           "src/main/resources/data/freakmod/painting_variant/freakybob_2.json"
         ]
-      }
+      },
+      "path": "~/other"
     },
     {
       "name": "Freakbobrecipe",
@@ -337,9 +366,11 @@
       "registry_name": "freakbobrecipe",
       "metadata": {
         "files": [
+          "src/main/resources/data/freakmod/advancement/recipes/freakbobrecipe.json",
           "src/main/resources/data/freakmod/recipe/freakbobrecipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakblock",
@@ -356,7 +387,8 @@
           "src/main/resources/assets/freakmod/blockstates/freakblock.json",
           "src/main/resources/assets/freakmod/models/block/freakblock.json"
         ]
-      }
+      },
+      "path": "~/Blocks"
     },
     {
       "name": "Freakblockrecipe",
@@ -366,9 +398,11 @@
       "registry_name": "freakblockrecipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/freakmod/recipe/freakblockrecipe.json"
+          "src/main/resources/data/freakmod/recipe/freakblockrecipe.json",
+          "src/main/resources/data/freakmod/advancement/recipes/freakblockrecipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakhelmetrecipe",
@@ -378,9 +412,11 @@
       "registry_name": "freakhelmetrecipe",
       "metadata": {
         "files": [
+          "src/main/resources/data/freakmod/advancement/recipes/freakhelmetrecipe.json",
           "src/main/resources/data/freakmod/recipe/freakhelmetrecipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakchestplatrecipe",
@@ -390,9 +426,11 @@
       "registry_name": "freakchestplatrecipe",
       "metadata": {
         "files": [
+          "src/main/resources/data/freakmod/advancement/recipes/freakchestplatrecipe.json",
           "src/main/resources/data/freakmod/recipe/freakchestplatrecipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakpantalonsrecipe",
@@ -402,9 +440,11 @@
       "registry_name": "freakpantalonsrecipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/freakmod/recipe/freakpantalonsrecipe.json"
+          "src/main/resources/data/freakmod/recipe/freakpantalonsrecipe.json",
+          "src/main/resources/data/freakmod/advancement/recipes/freakpantalonsrecipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakboots",
@@ -414,9 +454,11 @@
       "registry_name": "freakboots",
       "metadata": {
         "files": [
+          "src/main/resources/data/freakmod/advancement/recipes/freakboots.json",
           "src/main/resources/data/freakmod/recipe/freakboots.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakore",
@@ -436,7 +478,8 @@
           "src/main/resources/data/freakmod/neoforge/biome_modifier/freakore_biome_modifier.json",
           "src/main/resources/assets/freakmod/items/freakore.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "Deepslatefreakore",
@@ -456,7 +499,8 @@
           "src/main/resources/assets/freakmod/blockstates/deepslatefreakore.json",
           "src/main/resources/assets/freakmod/models/item/deepslatefreakore.json"
         ]
-      }
+      },
+      "path": "~/Blocks/Ores"
     },
     {
       "name": "Freakarrow",
@@ -470,7 +514,8 @@
           "src/main/resources/assets/freakmod/models/item/freakarrow.json",
           "src/main/java/net/mcreator/freakmod/item/FreakarrowItem.java"
         ]
-      }
+      },
+      "path": "~/items"
     },
     {
       "name": "Freakarrowrecipe",
@@ -480,9 +525,11 @@
       "registry_name": "freakarrowrecipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/freakmod/recipe/freakarrowrecipe.json"
+          "src/main/resources/data/freakmod/recipe/freakarrowrecipe.json",
+          "src/main/resources/data/freakmod/advancement/recipes/freakarrowrecipe.json"
         ]
-      }
+      },
+      "path": "~/Recipes"
     },
     {
       "name": "Freakprojectile",
@@ -494,7 +541,8 @@
         "files": [
           "src/main/java/net/mcreator/freakmod/entity/FreakprojectileEntity.java"
         ]
-      }
+      },
+      "path": "~/items"
     },
     {
       "name": "Freakarmoradvancement",
@@ -506,7 +554,8 @@
         "files": [
           "src/main/resources/data/freakmod/advancement/freakarmoradvancement.json"
         ]
-      }
+      },
+      "path": "~/achivements"
     },
     {
       "name": "Thatssofreaky",
@@ -518,7 +567,8 @@
         "files": [
           "src/main/resources/data/freakmod/advancement/thatssofreaky.json"
         ]
-      }
+      },
+      "path": "~/achivements"
     },
     {
       "name": "Freaktools",
@@ -530,11 +580,80 @@
         "files": [
           "src/main/resources/data/freakmod/advancement/freaktools.json"
         ]
-      }
+      },
+      "path": "~/achivements"
+    },
+    {
+      "name": "Freakdisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakdisc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/models/item/freakdisc.json",
+          "src/main/resources/assets/freakmod/items/freakdisc.json",
+          "src/main/java/net/mcreator/freakmod/item/FreakdiscItem.java",
+          "src/main/resources/data/freakmod/jukebox_song/freakdisc.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Freakdiscrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakdiscrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/freakmod/recipe/freakdiscrecipe.json",
+          "src/main/resources/data/freakmod/advancement/recipes/freakdiscrecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Multifreak",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multifreak",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/freakmod/models/item/multifreak.json",
+          "src/main/java/net/mcreator/freakmod/item/MultifreakItem.java",
+          "src/main/resources/assets/freakmod/items/multifreak.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "Freakui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freakui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/freakmod/client/gui/FreakuiScreen.java",
+          "src/main/java/net/mcreator/freakmod/world/inventory/FreakuiMenu.java"
+        ]
+      },
+      "path": "~/other"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "disc",
+      "files": [
+        "vert_pick-up-the-phone-baby-freakbob_1_1"
+      ],
+      "category": "neutral",
+      "subtitle": "Freaky"
+    }
+  ],
   "tag_elements": {
     "ITEMS:minecraft:head_armor": [
       "~CUSTOM:Freak.helmet"
@@ -549,12 +668,15 @@
       "~CUSTOM:Freak.boots"
     ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Multifreak",
       "~CUSTOM:Freaksword"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Multifreak",
       "~CUSTOM:Freakpickaxe"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:Multifreak",
       "~CUSTOM:Freakaxe"
     ],
     "ITEMS:minecraft:shovels": [
@@ -576,6 +698,9 @@
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Deepslatefreakore",
       "~CUSTOM:Freakore"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Freakdisc"
     ]
   },
   "tab_element_order": {},
@@ -611,15 +736,25 @@
       "advancements.thatssofreaky.descr": "Get the freakingot!",
       "advancements.thatssofreaky.title": "Thats so freaky",
       "advancements.freaktools.descr": "Get the full freakbob tool set!",
-      "advancements.freaktools.title": "Freaktools"
+      "advancements.freaktools.title": "Freaktools",
+      "item.freakmod.freakdisc.desc": "Freaky",
+      "item.freakmod.freakdisc": "Freakdisc",
+      "subtitles.disc": "Freaky",
+      "item.freakmod.multifreak": "Multifreak",
+      "gui.freakmod.freakui.label_live_freakybob_reaction": "Live freakybob reaction"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/freakmod/init/FreakmodModSounds.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/freakmod/FreakmodMod.java",
       "src/main/java/net/mcreator/freakmod/init/FreakmodModTabs.java",
+      "src/main/resources/assets/freakmod/sounds.json",
+      "src/main/java/net/mcreator/freakmod/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/freakmod/init/FreakmodModScreens.java",
+      "src/main/java/net/mcreator/freakmod/init/FreakmodModMenus.java",
       "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
       "src/main/java/net/mcreator/freakmod/init/FreakmodModBlocks.java",
       "src/main/java/net/mcreator/freakmod/init/FreakmodModItems.java",
@@ -629,7 +764,37 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Ores",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "achivements",
+        "children": []
+      },
+      {
+        "name": "other",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "freakmod",
